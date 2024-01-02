@@ -3,7 +3,11 @@ const app = express();
 
 app.use(express.static('dist'));
 
-app.get('/api/users', (req, res) => {    
+app.get('/', (_req, res) => {
+    res.send('Hello World');
+});
+
+app.get('/api/users', (_req, res) => {    
     res.send([{
         id: 1,
         name: 'John',
