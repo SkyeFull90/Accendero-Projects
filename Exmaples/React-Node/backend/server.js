@@ -7,7 +7,7 @@ app.use('/api/users', userRoutes);
 
 const corsOptions = (
     process.env.NODE_ENV === 'development' ?
-        { origin: 'http://localhost:3000' } :
+        { origin: 'http://localhost:5173' } :
         { origin: 'https://my-app.com' }
 );  
 app.use(cors(corsOptions));
