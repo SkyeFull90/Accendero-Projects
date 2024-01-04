@@ -1,4 +1,4 @@
-exports.getUsers = (req, res) => {
+const getUsers = (req, res) => {
     res.send([{
         id: 1,
         name: 'John',
@@ -10,3 +10,4 @@ exports.getUsers = (req, res) => {
         age: 23
     }]);
 };
+exports.getUsers = getUsers;
