@@ -10,4 +10,6 @@ const getUsers = (req, res) => {
         age: 23
     }]);
 };
-exports.getUsers = getUsers;
+module.exports = {
+    getUsers
+};
