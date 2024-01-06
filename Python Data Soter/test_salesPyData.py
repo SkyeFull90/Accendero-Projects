@@ -1,6 +1,5 @@
 import unittest
 from unittest.mock import patch, mock_open
-
 from datetime import datetime
 from salesPyData import TeslaSales, FileService
 
