@@ -7,9 +7,21 @@ MongoDB FastAPI
 
 # usage
 
-For CRUD operations on a MongoDB database using FastAPI and Motor
+To show the usage of REST-full CRUD operations on a MongoDB No SQL database using: Python FastAPI and Motor.
 
 ## Installation
+
+First set up the virtual environment for python to install deps to
+
+```sh
+$ python3 -m venv .venv
+```
+This pulls in a new virtual environment. Now let's activate it, so we can use it.
+
+```sh
+$ source ./.venv/bin/activate
+```
+Now we can continue on with our rest of our installation and running the project below.
 
 Install the dependencies from the directory that the project sits
 
@@ -72,7 +84,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Serve
-To serve to the terminal 
+To serve to the terminal, you can also use your favorite IDE that has python language support.
 
 ```sh
 $ python3 main.py
