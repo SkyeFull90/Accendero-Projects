@@ -11,7 +11,7 @@ For CRUD operations on a MongoDB database using FastAPI and Motor
 
 ## Installation
 
-Install the dependencies
+Install the dependencies from the directory that the project sits
 
 ```sh
 $ pip install -r requirements.txt
@@ -23,7 +23,12 @@ To serve in the browser
 ```sh
 $ uvicorn app:app --reload
 ```
+Or using Docker if you have it installed locally, or a GitHub CodeSpace will work to. 
+Make sure you have passed the proper environment variables to the image before running it.
 
+```sh
+$ docker compose up --build
+````
 ## Endpoints
 
 - GET /—Welcome to the Student Course API
