@@ -1,7 +1,14 @@
 import unittest
 from unittest.mock import patch, mock_open
+
 from datetime import datetime
 from salesPyData import TeslaSales, FileService
+
+class TestTeslaSales(unittest.TestCase):
+    def test_init(self):
+        tesla_sales = TeslaSales('Jan-21', '1000')
+        self.assertEqual(tesla_sales.date, datetime.strptime('Jan-21', '%b-%y'))
+        self.assertEqual(tesla_sales.sales, 1000)
 
 
 class TestTeslaSales(unittest.TestCase):
@@ -29,3 +36,4 @@ class TestFileService(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
