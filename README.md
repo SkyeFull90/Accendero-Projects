@@ -24,7 +24,7 @@ To serve in the browser
 $ uvicorn app:app --reload
 ```
 Or using Docker if you have it installed locally, or a GitHub CodeSpace will work to. 
-Make sure you have passed the proper environment variables to the image when running it.
+Make sure you have passed the proper environment variables to the image before running it.
 
 ```sh
 $ docker compose up --build
