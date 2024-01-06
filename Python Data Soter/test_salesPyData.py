@@ -1,5 +1,9 @@
 import unittest
 from unittest.mock import patch, mock_open
+<<<<<<< HEAD
+=======
+import csv
+>>>>>>> origin/dev
 from datetime import datetime
 from salesPyData import TeslaSales, FileService
 
