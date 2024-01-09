@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat Gallery</title>
+   <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <%- include('partials/navbar') %>
+
+    <div class="container mt-4">
+      <div class="row">
+        <% cats.forEach(cat => { %>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4"> <!-- Bootstrap classes to create four cards per row -->
+            <div class="card h-100">
+              <img class="card-img-top" src="<%= cat.image %>" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><%= cat.name %></h5>
+                <p class="card-text">
+                  Age: <%= cat.age %> <br>
+                  Favorite food: <%= cat.favoriteFood %> <br>
+                  Fun fact: <%= cat.funFact %> <br>
+                  Posted by: <%= cat.owner.username %>
+                </p>
+                <% if (currentUser && cat.owner._id.equals(currentUser._id)) { %>
+                <div class="card-footer">
+                  <a href="/edit/<%= cat._id %>" class="btn btn-primary">Edit</a>
+                  <form action="/delete/<%= cat._id %>" method="POST" style="display:inline;">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                  </form>
+                </div>
+                <% } %>
+              </div>
+            </div>
+          </div>
+        <% }); %>
+      </div>
+    </div>
+  </body>
+</html>
