@@ -7,6 +7,14 @@
 2. Run `cd Accendero-Projects/Python-Date-Sorter` from the command line
 3. Run `python3 main.py` 
 
+### Installation
+
+For the Supabase py csv to sql py file
+1. on Supabase, in the SQL Editor write a sql query to create a new table for acceptence of the incoming report with: id serial primary key, model_type varchar(255), and report text. 
+2. Then go to your project settings on supabase and grab your api keys both the Project URL and the Project Api key aka anon public key
+3. at the project root add a ,env file and add the keys you jsut grabbed from your supabase dashboard.
+4. Now just run `python3 supabaseCSVToSql.py` refer to the https://supabase.com/docs under python in you run into any trouble running this one
+
 You can also run it from your IDE of choice.
 
 ### Notes:
