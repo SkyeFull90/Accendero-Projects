@@ -89,6 +89,7 @@ To serve to the terminal, you can also use your favorite IDE that has python lan
 ```sh
 $ python3 main.py
 ```
+For the SQL version fo this refer to the projects README.md file 
 
 ## Documentation used
 
