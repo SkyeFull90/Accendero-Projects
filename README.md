@@ -118,14 +118,14 @@ $ npm install
 To serve to the terminal, you can also use your favorite IDE that has node language support.
 Note: You will need to have a .env file with the proper environment variables.
 So remember
-to head over to Cloudinary and MongoDB Atlas to get your keys, you will need keys for cloudinary as well. 
+to head over to Cloudinary and MongoDB Atlas to get your keys, you will also need keys for cloudinary as well. 
 Once the .env file is set up with the proper keys, you can run the project as the follows below. 
 
 ```sh   
 $ npm start
 ```
-You can also visit the site at: https://cat-book-alpha-1-0.onrender.com/ 
-Thanks to Render for hosting the site for free, and it was easy to set up.
+You can also vist the site at:  https://cat-book-alpha-1-0.onrender.com/ 
+Thanks to Render for hosting the site for free and it was easy to set up.
 
 ## Documentation used
 
@@ -139,42 +139,3 @@ Thanks to Render for hosting the site for free, and it was easy to set up.
 - [EJS](https://ejs.co/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Render](https://render.com/)
-
-# Project 4
-
-Astro with React and Suapabase Auth
-
-## Description
-
-A simple project that uses React with Supabase Auth and React axios
-to fetch data from the same data we used in the Python Data Sorter project.
-
-# Installation
-
-Install the dependencies from the directory the project is in
-
-```sh
-$ npm install
-```
-
-## Serve
-To serve to the terminal, you can also use your favorite IDE that has node language support.
-Note: You will need to have a .env file with the proper environment variables.
-So remember
-to head over to Supabase and get your keys, you will need keys for cloudinary as well.
-Once the .env file is set up with the proper keys, you can run the project as the follows below.
-
-```sh
-$ npm run dev
-```
-
-
-## Documentation used
-
-- [React](https://reactjs.org/)
-- [Supabase](https://supabase.io/)
-- [Axios](https://axios-http.com/)
--[tailwindcss](https://tailwindcss.com/)
--[Asto js](https://astro.build/)
-- [solid-js](https://www.solidjs.com/)
-- [Vite](https://vitejs.dev/)
