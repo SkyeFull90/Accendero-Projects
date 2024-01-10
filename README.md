@@ -139,3 +139,11 @@ Thanks to Render for hosting the site for free and it was easy to set up.
 - [EJS](https://ejs.co/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Render](https://render.com/)
+
+# Project 4
+
+Astro With supabase auth and react
+
+## Description
+
+A fun bonus project of our pyhton data soter report data, for more info check out the projects readme.md file.
