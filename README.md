@@ -67,7 +67,7 @@ Python Data Sorter
 
 # usage
 
-For Sorting sales data or even in,
+For Sorting sales data,
 with we refactor the code to sort any data in a csv from Excel or any other spreadsheet software.
 For the purpose of this project, we will be using the sales data from a previous Java project.
 # Disclaimer
