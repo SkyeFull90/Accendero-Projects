@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Skye-Fulmer-s-workspace-3p02ff.us-west-2.xata.sh/db/xata-astro",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
