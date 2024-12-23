@@ -24,22 +24,22 @@ if (search) {
 		<div id="item1" class="carousel-item w-full">
 		  <img
 			src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-			class="w-full" />
+			class="w-full"  alt="image"/>
 		</div>
 		<div id="item2" class="carousel-item w-full">
 		  <img
-			src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-			class="w-full" />
+			  src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+			  class="w-full" alt="image"/>
 		</div>
 		<div id="item3" class="carousel-item w-full">
 		  <img
 			src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-			class="w-full" />
+			class="w-full"  alt="image"/>
 		</div>
 		<div id="item4" class="carousel-item w-full">
 		  <img
 			src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-			class="w-full" />
+			class="w-full"  alt="image"/>
 		</div>
 	  </div>
 	  <div class="flex w-full justify-center gap-2 py-2">
@@ -47,7 +47,7 @@ if (search) {
 		<a href="#item2" class="btn btn-xs">2</a>
 		<a href="#item3" class="btn btn-xs">3</a>
 		<a href="#item4" class="btn btn-xs">4</a>
-	  </div>	
+	  </div>
   <div class="w-full max-w-5xl mt-16">
     <form action="/">
         <label>
@@ -74,12 +74,12 @@ if (search) {
 				  <p class="text-purple-950 dark:text-purple-200 mb-5">
 					{posts.description}
 				  </p>
-				  <a
+					<button><a
 					href={`posts/${posts.slug}`}
 					class="px-4 py-2 font-semibold text-sm bg-purple-700 text-white rounded-lg shadow-sm w-fit"
 				  >
 					Read more &rarr;
-				  </a>
+				  </a></button>
 				</div>
 			  ))}
 			</div>
