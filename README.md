@@ -152,7 +152,7 @@ Our mission is to radically simplify the way developers work with data. Your dat
 
 Xata is a serverless data platform. Built on top of PostgresSQL, Xata provides a full-text and vector search engine, record-level file attachments, table-level aggregations and exposes a single consistent REST API with SDKs. Xata provides support for schema branches and an optional ask endpoint to engage with OpenAI's ChatGPT API.
  
-This web app demonstrates SSG (Static Site Generation) and SSR (Server Side Rendering) this one use TypeScript which our framework of chose Astro uses by default. We have search enabled so you can search for the article you are looking for. 
+This web app demonstrates SSG (Static Site Generation) and SSR (Server Side Rendering) this one use TypeScript which our framework of choice Astro uses by default. We have search enabled so you can search for the article you are looking for. 
 to read more about this app and to build your you can do so here: [Get started with Astro and Xata](https://xata.io/docs/getting-started/astro) and to learn more about Astro and what you can do with it at [Astro.build](https://astro.build) .
 
 ## Documentation
