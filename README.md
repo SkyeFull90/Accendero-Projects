@@ -68,7 +68,7 @@ Python Data Sorter
 # usage
 
 For Sorting sales data,
-with we refactor of the code, you could sort any data in a csv or from a Excel workbook or any other spreadsheet software.
+with we refactor of the code, you could sort any data in a csv or from an Excel workbook or any other spreadsheet software.
 For the purpose of this project, we will be using the sales data from a previous Java project.
 # Disclaimer
 The data in the csv files is not real sales data or has any attachment to Telsa or Elon Musk and is only used 
@@ -103,7 +103,7 @@ Cat Book Alpha 1.0
 ## Description
 
 A fun little project of social network Site.
-It is mostly compressed of: Node JS, ExpressJS Mongoose, Multer as middleware to Cloudinary, 
+It is mostly compressed of: Node.js, Express.js Mongoose, Multer as middleware to Cloudinary, 
 Passport with a Connection to Mongodb for auth, and Cloudinary with connection to MongoDB for image storage.
 
 # Installation 
@@ -124,12 +124,12 @@ Once the .env file is set up with the proper keys, you can run the project as th
 ```sh   
 $ npm start
 ```
-You can also vist the site at:  https://cat-book-alpha-1-0.onrender.com/ 
-Thanks to Render for hosting the site for free and it was easy to set up.
+You can also visit the site at:  https://cat-book-alpha-1-0.onrender.com/ 
+Thanks to Render for hosting the site for free, and it was easy to set up.
 
-## Security and Vulnerbility Analysis
+## Security and Vulnerability Analysis
 
-From the recent security audit conducted on December 21st, 2024 has concluded that this current version of CatBook Alpha is safe and secure. With the current addition of Snyk: Developer Security Platform. This has mitigated potiental risks, and reduced the attack surface. But there is still a possible risk of CSRF (Cross Site Forgery) CWE-352, mentioned by Snyk. With render's firewall provider Cloudflare and it's security compliance rules this is midigated and is low to medium risk. And in conclusion, CatBook Alpha 1.0.7 on prod is safe and has a low to medium attack surface. As long as it keeps receiving further security patches this web app shall be safe and secure. There is still 1 high and 9 medium vulnerbilities that still need to be patched. Which from the dev team will be patched in the beta version.
+From the recent security audit conducted on December 21st, 2024 has concluded that this current version of CatBook Alpha is safe and secure. With the current addition of Snyk: Developer Security Platform. This has mitigated potential risks, and reduced the attack surface. But there is still a possible risk of CSRF (Cross Site Forgery) CWE-352, mentioned by Snyk. With render's firewall provider Cloudflare, and it's security compliance rules this is mitigated and is low to medium risk. And in conclusion, CatBook Alpha 1.0.7 on prod is safe and has a low to medium attack surface. As long as it keeps receiving further security patches this web app shall be safe and secure. There is still 1 high and 9 medium vulnerabilities that still need to be patched. Which from the dev team will be patched in the beta version.
 
 ## Documentation used
 
@@ -146,8 +146,16 @@ From the recent security audit conducted on December 21st, 2024 has concluded th
 
 # Project 4
 
-Astro With supabase auth and react
+## Xata Astro Blog
 
-## Description
+Our mission is to radically simplify the way developers work with data. Your database can do more than store rows and columns in a table. We want to remove the glue out of your stack and provide a connected data platform that works with the tools you love.
 
-A fun bonus project of our pyhton data soter report data, for more info check out the projects readme.md file.
+Xata is a serverless data platform. Built on top of PostgresSQL, Xata provides a full-text and vector search engine, record-level file attachments, table-level aggregations and exposes a single consistent REST API with SDKs. Xata provides support for schema branches and an optional ask endpoint to engage with OpenAI's ChatGPT API.
+ 
+This web app demonstrates SSG (Static Site Generation) and SSR (Server Side Rendering) this one use TypeScript which our framework of chose Astro uses by default. We have search enabled so you can search for the article you are looking for. 
+to read more about this app and to build your you can do so here: [Get started with Astro and Xata](https://xata.io/docs/getting-started/astro) and to learn more about Astro and what you can do with it at [Astro.build](https://astro.build) .
+
+## Documentation
+
+- [Astro](https://astro.build)
+- [Xata](https://xata.io/docs/getting-started/astro) Which I helped write as an open Source project
