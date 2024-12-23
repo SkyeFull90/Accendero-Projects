@@ -159,3 +159,5 @@ to read more about this app and to build your you can do so here: [Get started w
 
 - [Astro](https://astro.build)
 - [Xata](https://xata.io/docs/getting-started/astro) Which I helped write as an open Source project
+- [Cypress](https://cypress.io)
+- [Cypress E2E test guide on Medium](https://k-hartanto.medium.com/end-to-end-test-create-your-first-e2e-testing-in-cypress-ceaafefb1820)
