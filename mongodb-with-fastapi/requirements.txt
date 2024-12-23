@@ -6,7 +6,7 @@
 #
 annotated-types==0.6.0
     # via pydantic
-anyio==3.7.1
+anyio==4.4.0
     # via
     #   fastapi
     #   starlette
@@ -22,7 +22,7 @@ fastapi==0.109.1
     # via -r requirements.in
 h11==0.14.0
     # via uvicorn
-idna==3.4
+idna==3.7
     # via
     #   anyio
     #   email-validator
@@ -57,3 +57,4 @@ pytest==6.2.5
 httpx
     # via -r requirements.in
     #   for testing
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
