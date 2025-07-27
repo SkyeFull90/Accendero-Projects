@@ -18,7 +18,7 @@ pluggy==1.3.0
     # via pytest
 pytest==7.4.3
     # via -r test-requirements.in
-requests==2.31.0
+requests==2.32.4
     # via -r test-requirements.in
 urllib3==2.0.7
     # via requests
